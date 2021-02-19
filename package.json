@@ -24,6 +24,9 @@
     "steal-tools": "^2.2.2",
     "testee": "^0.9.1"
   },
+  "peerDependencies": {
+	"react": "17.x"
+  },
   "scripts": {
     "build": "node build.js",
     "preversion": "npm test && npm run build",
